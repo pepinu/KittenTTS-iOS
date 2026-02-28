@@ -1,0 +1,21 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserdata
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# Frameworks (built from source — too large for git)
+Frameworks/
+
+# Model files (downloaded separately — ~25MB)
+KittenTTSonIphone/kitten-nano-en-v0_1-fp16/
+
+# Downloaded archives
+*.tar.bz2
+
+# macOS
+.DS_Store
+
+# Claude
+.claude/

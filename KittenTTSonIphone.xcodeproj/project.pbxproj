@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C429F32D79E31D5B683125C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D01A1AF61404D5EFA8E224 /* ContentView.swift */; };
+		41DFD61A5DDA397C13D9D346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25C6C28AC15B7FB97A86D47 /* Assets.xcassets */; };
+		5E09A6DEB668AAD8AFED1124 /* SherpaOnnx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA22D76AAD9BF6C83189C8 /* SherpaOnnx.swift */; };
+		63869E0F9E0B4D0A0F883AD5 /* KittenTTSonIphoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D58085129B5A00B34D98DF /* KittenTTSonIphoneApp.swift */; };
+		91A1BDC598166DE64F4F6F8D /* kitten-nano-en-v0_1-fp16 in Resources */ = {isa = PBXBuildFile; fileRef = A243768C21FD984D4D2296DB /* kitten-nano-en-v0_1-fp16 */; };
+		950D6D9D6D79221CA01906D8 /* sherpa-onnx.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3360F8E743BCC6CB3B082706 /* sherpa-onnx.xcframework */; };
+		C251769B4F50EF41ABD83FB2 /* onnxruntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04461888BD1E087C037AADC5 /* onnxruntime.xcframework */; };
+		D48131B3A33DBAE13C386D4E /* KittenTTSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8C161CB012D83259385CD /* KittenTTSEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04461888BD1E087C037AADC5 /* onnxruntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = onnxruntime.xcframework; path = Frameworks/onnxruntime.xcframework; sourceTree = "<group>"; };
+		0DB8C161CB012D83259385CD /* KittenTTSEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenTTSEngine.swift; sourceTree = "<group>"; };
+		3360F8E743BCC6CB3B082706 /* sherpa-onnx.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "sherpa-onnx.xcframework"; path = "Frameworks/sherpa-onnx.xcframework"; sourceTree = "<group>"; };
+		6E3883308A44AD0BF559BC75 /* KittenTTSonIphone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KittenTTSonIphone-Bridging-Header.h"; sourceTree = "<group>"; };
+		73D58085129B5A00B34D98DF /* KittenTTSonIphoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenTTSonIphoneApp.swift; sourceTree = "<group>"; };
+		79D01A1AF61404D5EFA8E224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7ACA22D76AAD9BF6C83189C8 /* SherpaOnnx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaOnnx.swift; sourceTree = "<group>"; };
+		A243768C21FD984D4D2296DB /* kitten-nano-en-v0_1-fp16 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "kitten-nano-en-v0_1-fp16"; path = "KittenTTSonIphone/kitten-nano-en-v0_1-fp16"; sourceTree = SOURCE_ROOT; };
+		A28DFCB896CA22815D91F5DF /* KittenTTSonIphone.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KittenTTSonIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25C6C28AC15B7FB97A86D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC75E951F79807D27216594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950D6D9D6D79221CA01906D8 /* sherpa-onnx.xcframework in Frameworks */,
+				C251769B4F50EF41ABD83FB2 /* onnxruntime.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4166B827BEBA945263C17222 /* KittenTTSonIphone */ = {
+			isa = PBXGroup;
+			children = (
+				C25C6C28AC15B7FB97A86D47 /* Assets.xcassets */,
+				79D01A1AF61404D5EFA8E224 /* ContentView.swift */,
+				0DB8C161CB012D83259385CD /* KittenTTSEngine.swift */,
+				6E3883308A44AD0BF559BC75 /* KittenTTSonIphone-Bridging-Header.h */,
+				73D58085129B5A00B34D98DF /* KittenTTSonIphoneApp.swift */,
+				7ACA22D76AAD9BF6C83189C8 /* SherpaOnnx.swift */,
+			);
+			path = KittenTTSonIphone;
+			sourceTree = "<group>";
+		};
+		6501895ADD45B4B6670540B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04461888BD1E087C037AADC5 /* onnxruntime.xcframework */,
+				3360F8E743BCC6CB3B082706 /* sherpa-onnx.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D7966488BCEEF6BA496BB8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28DFCB896CA22815D91F5DF /* KittenTTSonIphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD66689AB3C6648C4FC2C54A = {
+			isa = PBXGroup;
+			children = (
+				A243768C21FD984D4D2296DB /* kitten-nano-en-v0_1-fp16 */,
+				4166B827BEBA945263C17222 /* KittenTTSonIphone */,
+				6501895ADD45B4B6670540B6 /* Frameworks */,
+				7D7966488BCEEF6BA496BB8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05B4776C76D96199DD37E6F4 /* KittenTTSonIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936145959DBDC7646968A5BA /* Build configuration list for PBXNativeTarget "KittenTTSonIphone" */;
+			buildPhases = (
+				49373D9D13057C4751C7A1EB /* Sources */,
+				CC5D5E928C756965B7EFEABC /* Resources */,
+				4EC75E951F79807D27216594 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KittenTTSonIphone;
+			packageProductDependencies = (
+			);
+			productName = KittenTTSonIphone;
+			productReference = A28DFCB896CA22815D91F5DF /* KittenTTSonIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F81B4268D03E1768B880006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					05B4776C76D96199DD37E6F4 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 633DA0BEFBFF9CA1D38A31C8 /* Build configuration list for PBXProject "KittenTTSonIphone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FD66689AB3C6648C4FC2C54A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05B4776C76D96199DD37E6F4 /* KittenTTSonIphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC5D5E928C756965B7EFEABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFD61A5DDA397C13D9D346 /* Assets.xcassets in Resources */,
+				91A1BDC598166DE64F4F6F8D /* kitten-nano-en-v0_1-fp16 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49373D9D13057C4751C7A1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C429F32D79E31D5B683125C /* ContentView.swift in Sources */,
+				D48131B3A33DBAE13C386D4E /* KittenTTSEngine.swift in Sources */,
+				63869E0F9E0B4D0A0F883AD5 /* KittenTTSonIphoneApp.swift in Sources */,
+				5E09A6DEB668AAD8AFED1124 /* SherpaOnnx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		85420420221F3213BAE5E34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Frameworks\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/KittenTTSonIphone/Headers",
+				);
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KittenTTSonIphone;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "KittenTTSonIphone/KittenTTSonIphone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		912FD9E870188ACC203141BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Frameworks\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/KittenTTSonIphone/Headers",
+				);
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KittenTTSonIphone;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "KittenTTSonIphone/KittenTTSonIphone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99B1A6C84978F15403D07C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DA47D2F2BAF595298721CCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633DA0BEFBFF9CA1D38A31C8 /* Build configuration list for PBXProject "KittenTTSonIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA47D2F2BAF595298721CCE9 /* Debug */,
+				99B1A6C84978F15403D07C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		936145959DBDC7646968A5BA /* Build configuration list for PBXNativeTarget "KittenTTSonIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912FD9E870188ACC203141BB /* Debug */,
+				85420420221F3213BAE5E34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F81B4268D03E1768B880006 /* Project object */;
+}

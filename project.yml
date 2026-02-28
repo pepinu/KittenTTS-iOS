@@ -1,0 +1,42 @@
+name: KittenTTSonIphone
+options:
+  bundleIdPrefix: com.pepi
+  deploymentTarget:
+    iOS: "15.0"
+  xcodeVersion: "16.0"
+
+targets:
+  KittenTTSonIphone:
+    type: application
+    platform: iOS
+    sources:
+      - path: KittenTTSonIphone
+        excludes:
+          - "kitten-nano-en-v0_1-fp16"
+          - "Headers"
+      - path: KittenTTSonIphone/kitten-nano-en-v0_1-fp16
+        type: folder
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.KittenTTSonIphone
+        CODE_SIGN_IDENTITY: ""
+        DEVELOPMENT_TEAM: ""
+        SWIFT_OBJC_BRIDGING_HEADER: KittenTTSonIphone/KittenTTSonIphone-Bridging-Header.h
+        HEADER_SEARCH_PATHS:
+          - "$(inherited)"
+          - "$(SRCROOT)/KittenTTSonIphone/Headers"
+        OTHER_LDFLAGS:
+          - "$(inherited)"
+          - "-lc++"
+        ENABLE_BITCODE: "NO"
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_GENERATION_MODE: GeneratedFile
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.0"
+    dependencies:
+      - framework: Frameworks/sherpa-onnx.xcframework
+        embed: false
+      - framework: Frameworks/onnxruntime.xcframework
+        embed: false
