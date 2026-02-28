@@ -1,6 +1,6 @@
 name: KittenTTSonIphone
 options:
-  bundleIdPrefix: com.pepi
+  bundleIdPrefix: com.example
   deploymentTarget:
     iOS: "15.0"
   xcodeVersion: "16.0"

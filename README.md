@@ -6,10 +6,6 @@ Run [KittenTTS](https://github.com/KittenML/KittenTTS) on your iPhone. Ultra-lig
 
 https://github.com/user-attachments/assets/3df9db22-c79e-42fd-8cec-cc095cab7b19
 
-<p align="center">
-  <img src="assets/screen.png" width="300" alt="KittenTTS iOS app screenshot">
-</p>
-
 ## Features
 
 - All 8 KittenTTS voices: Bella, Jasper, Luna, Bruno, Rosie, Hugo, Kiki, Leo
